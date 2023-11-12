@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald&family=Sofia+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Oswald&family=Playfair+Display:wght@700&family=Signika&family=Sofia+Sans+Condensed&display=swap');
+
+body {
+    background: #3f3f4e;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.fast {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   overflow:  hidden !important;
+}
+
+#c1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+    padding: 0px;
+}
+
+#n1 {
+    background-color: #3f3f4e;
+}
+
+.s1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image:
+    linear-gradient(to bottom, rgba(18, 13, 68, 0.42), rgba(20, 63, 144, 0.63)),
+    url('med/s1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    position: relative;
+    padding: 100px 20vw;
+}
+
+.r1 {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+
+.r1 h2 {
+    color: #38b6ff;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+}
+
+.r1 span {
+    color: white;
+    text-transform: capitalize;
+}
+
+
+#o1 , #o3 {
+    font-size: 35px; padding-bottom: 10px;
+}
+
+#o2 {
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+
+
+
+.hidden {
+    opacity: 0;
+    transition: all 4s !important;
+    transition-delay: 50ms;
+}
+
+.show {
+    opacity: 1;
+}
+
+
+
+.s2 {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.r2 {
+    width: 70%;
+    color: white;
+    z-index: 1 ;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    
+ 
+}
+
+.r2 h2 {
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 15px;
+}
+
+.r2 h2 span {
+    color: #38b6ff;
+    font-size: 55px;
+}
+
+.r2 p {
+    font-size: 22px;
+    letter-spacing: 2px ;
+    line-height: 1.4;
+    font-family: 'Signika', sans-serif;
+}
+.r2 p span {
+    color: #38b6ff;
+    font-size: 22px;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
+
+.wave {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 186px;
+}
+
+.wave {
+    fill: #38B6FF;
+    height: 186px;
+}
+
+
+.wave3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.wave3 {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wave3 .shape-fill {
+    fill: #38B6FF;
+}
+
+
+#w1 {
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+
+
+.r3 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.r3 h2 {
+    font-size: 45px ;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.r3 span {
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    color: #38B6FF;
+}
+
+
+#r4 {
+    align-items: center;
+    margin: 0 auto !important;
+    justify-content: space-evenly !important;
+    width: 80%;
+}
+
+.g1 {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.circle1 {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    padding: 15px 0;
+    position: absolute;
+}
+
+.fonk {
+    display: flex;
+    flex-direction: row;
+}
+
+.bonk {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.fonk h2 {
+    color: white;
+    padding-left: 85px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bonk p {
+    color: white;
+    font-size: 22px;
+    font-family: 'Signika', sans-serif;
+}
+
+.r2 {
+    transform: translateY(-40px) !important;
+}
+
+.custom-shape-divider-top-1699291843 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1699291843 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+
+.custom-shape-divider-top-1699291843 .shape-fill {
+    fill: #38B6FF;
+}
+
+
+
+
+
+
+
+
+
+
+/* section 3 */
+
+
+
+
+
+.s3 {
+    width: 100%;
+    height: auto;
+    background-image:
+    linear-gradient(to bottom, rgba(18, 13, 68, 0.42), rgba(20, 63, 144, 0.63)),
+    url(https://img.freepik.com/free-photo/cityscape-night-bangkok-thailand_335224-1020.jpg?w=1380&t=st=1699421284~exp=1699421884~hmac=6479d2bca5939ad9bbc3b14b744fc4053b16457ca0fdc060a79b5c600e6055c2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.r5 {
+    width: 100%;
+    text-align: center;
+    align-items: center;justify-content: center;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.r5 h1 {
+    font-size: 47px;
+    color: #ffffff;
+}
+
+.r5 span {
+    font-size: 49px;
+    color: #38b6ff;
+}
+
+.r5 p {
+    font-size: 23px;
+    color: #38B6FF;
+    padding-bottom: 15px;
+}
+
+.f1 {
+    background-color:#3f3f4e;
+    height: 555px;
+    width: 506px;
+    padding: 30px 15px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+#b1 {
+    padding: 10px 30px;
+    color: white;
+    background-color: #38B6FF;
+    margin: 0 auto !important;
+    border-radius: 50px;
+}
+
+.r6 {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 15px;
+    margin-top: 12px;
+}
+
+form input , form textarea {
+    margin-bottom:  20px ;
+    padding: 10px 15px;
+    border-style: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #38B6FF;
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px ;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 180px;
+    margin: auto;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+form h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #38B6FF;
+    padding-bottom: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #3f3f4e;
+    min-height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px auto 5px;
+}
+footer h5 {
+    font-size: 22px;
+    font-family: 'Signika', sans-serif;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1800px) {
+       .s1 {
+        height: 860px !important;
+       }
+
+       .s3 {
+        height: 860px;
+       }
+}
+
+@media only screen and (max-width:440px) {
+    #o1 ,#o3 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #o2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .r1 {
+         padding-top: 60px;
+    }
+    
+
+  .r2 {
+    padding-top: 75px;
+  }
+    
+
+}
+
+
+
+@media only screen and (max-width:1799px) {
+    .r1 {
+        padding-top: 10px;
+    }
+
+    .s1 {
+        padding: 200px 15px !important;
+    }
+}
